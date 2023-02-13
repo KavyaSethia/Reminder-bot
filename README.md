@@ -48,10 +48,19 @@ Fed up with too many assignments and deadlines to remember? This telegram bot is
 https://docs.google.com/document/d/1-any88-IiThF0nnvF3d3HrZSnXFvwC-x9hFsUy3StkQ/edit?usp=drivesdk
 
 ## Screenshots
-![1](https://user-images.githubusercontent.com/101000458/218455159-52c2673c-1d4f-4eea-b2bb-355092a8d188.png)
-![2](https://user-images.githubusercontent.com/101000458/218455711-1836d06d-555b-43f7-bac1-d5fafcc09679.png)
-![3](https://user-images.githubusercontent.com/101000458/218455861-a0192309-7d9c-49d7-8f39-03c22c1af574.png)
-![4](https://user-images.githubusercontent.com/101000458/218459402-1e4c1691-4e8e-4ba5-9b05-134441b3fa01.png)
+
+adding a new reminder
+![first](https://user-images.githubusercontent.com/101000458/218464119-7e4784aa-636a-4a51-9d9b-24c98f597ec2.png)
+
+add date,time and reason of reminder
+![second](https://user-images.githubusercontent.com/101000458/218464138-51c5e70b-befe-4c07-bb40-f1fa92d30cbd.png)
+
+getting the reminder
+![third](https://user-images.githubusercontent.com/101000458/218464164-48ebf89b-c7e4-4ebe-902b-1a0d55efa157.png)
+
+visualising the number of assingments completed and left
+![fourth](https://user-images.githubusercontent.com/101000458/218464181-0a9ddb7f-b98d-42ef-a358-f1378e09c355.png)
+
 
 
 
