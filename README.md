@@ -17,10 +17,12 @@ Fed up with too many assignments and deadlines to remember? This telegram bot is
 10. firebase_admin import credentials,db,firestore
 
 ## How to set up by user
+-
 
 
 ## Technologies 
-- firebase, streamlit, python
+- Firebase
+- Streamlit
 
 ## Features
 
