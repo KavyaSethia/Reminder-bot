@@ -21,7 +21,6 @@ Fed up with too many assignments and deadlines to remember? This telegram bot is
 
 
 ## How to set up by the  user
-- Install pycharm
 - Take API token from telegram bot father 
         -- link for guidance: https://youtube.com/shorts/yum54mlirPM?feature=share  
 - Add the API in the code 
