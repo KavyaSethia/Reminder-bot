@@ -65,7 +65,7 @@ getting the reminder
 
 ![third](https://user-images.githubusercontent.com/101000458/218464164-48ebf89b-c7e4-4ebe-902b-1a0d55efa157.png)
 
-visualising the number of assingments completed and left
+visualising the number of assignment completed and left
 
 ![fourth](https://user-images.githubusercontent.com/101000458/218464710-615ee382-d193-4266-9d8f-1c7b85daab5e.png)
 
@@ -75,13 +75,11 @@ visualising the number of assingments completed and left
 
 ## Future Scope
 
-we plan to include NLP(natural language processing) features to make the bot able to respond to various inputs of the users accordingly. This will ensure diverse and easy chatting options to the users and will expand the user base as different languages can be used to use our bot. The bot is currently usable to telegram app. We plan to expand it's usability to wattsapp and other common social media sites according to grwoing user requirements.
-
-
+We plan to include NLP(natural language processing) features to make the bot able to respond to various inputs of the users accordingly. This will ensure diverse and easy chatting options to the users and will expand the user base as different languages can be used to use our bot. The bot is currently usable to telegram app. We plan to expand it's usability to whatsapp and other common social media sites according to growing user requirements. Also we will add multi lingual facility. 
 
 
 
 ## Feedback
 
-This bot has various necessary features required. Please leave us a feedback. It will help us improve our project. we are open to all types of feedbacks
+This bot has various necessary features required. Please leave us a feedback. It will help us improve our project. We are open to all types of feedbacks
 Hope you liked it!!
