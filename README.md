@@ -39,10 +39,11 @@ Fed up with too many assignments and deadlines to remember? This telegram bot is
 - Add a new reminder --> This features take the input from the user about the date, time and reason of the new reminder and saves it to the database.
 - Edit reminder --> This feature edits the existing reminder and replace with that one.
 - Delete reminder --> This feature is use to delete the existing reminder.
-- Get all reminder --> This feature will give the list of all reminders till that date. 
+- View reminder --> This feature will give the list of all reminders till that date. 
 - Mark reminder as complete --> This feature marks the completed reminder.
-- reminder notification --> This feature is use to get notification of the reminder at a specific time on the screen.
+- Reminder notification --> This feature is use to get notification of the reminder at a specific time on the screen.
 - view summary of reminder --> This feature gives the total completed, missed and upcoming
+- Vizualise 
 
 
 ## Documentation
