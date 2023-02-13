@@ -11,15 +11,14 @@ Fed up with too many assignments and deadlines to remember? This telegram bot is
 
 ## Libraries
 1.  telebot
-2.  apscheduler. schedulers.blocking - BlockingScheduler
-3.  Re
-4.  datetime 
-5.  bob_telegram_tools.bot -  TelegramBot
-6.  matplotlib.pyplot
-7.  firebase_admin
-8.  asyncio
-9.  Flask, request
-10. firebase_admin -  credentials,db,firestore
+2.  apscheduler
+3.  datetime 
+4.  bob_telegram_tools.bot
+5.  matplotlib
+6.  firebase_admin
+7.  asyncio
+8.  Flask, request
+
 
 ## How to set up by the  user
 - Install pycharm
