@@ -8,15 +8,15 @@ Fed up with too many assignments and deadlines to remember? This telegram bot is
 
 ## Libraries
 1.  telebot
-2.  from apscheduler.schedulers.blocking import BlockingScheduler
+2.  apscheduler.schedulers.blocking - BlockingScheduler
 3.  Re
 4.  datetime 
-5.  from bob_telegram_tools.bot import TelegramBot
+5.  bob_telegram_tools.bot -  TelegramBot
 6.  matplotlib.pyplot
 7.  firebase_admin
 8.  asyncio
 9.  Flask,request
-10. firebase_admin import credentials,db,firestore
+10. firebase_admin -  credentials,db,firestore
 
 ## How to set up by user
 - Install pycharm
@@ -36,7 +36,7 @@ Fed up with too many assignments and deadlines to remember? This telegram bot is
 - Edit reminder --> This feature edits the existing reminder and replace with that one.
 - Delete reminder --> This feature is use to delete the existing reminder.
 - Get all reminder --> This feature will give the list of all reminders till that date. 
-- Mark reminder as complete --> 
+- Mark reminder as complete --> This feature marks the completed reminder.
 - reminder notification --> This feature is use to get notification of the reminder at a specific time on the screen.
 - view summary of reminder --> This feature gives the total completed, missed and upcoming
 
