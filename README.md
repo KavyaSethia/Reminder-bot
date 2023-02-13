@@ -33,6 +33,7 @@ Fed up with too many assignments and deadlines to remember? This telegram bot is
 ## Technologies 
 - Firebase
 - Streamlit
+- Pycharm
 
 ## Features
 
@@ -42,7 +43,7 @@ Fed up with too many assignments and deadlines to remember? This telegram bot is
 - Get all reminders --> this feature will give the list of all reminders till that date. 
 - Mark reminder as complete --> This feature marks the completed reminder.
 - Reminder notification --> This feature is used to get a notification of the reminder at a specific time on the screen.
-- Visualization of reminder --> This feature gives the total completed, missed, and upcoming reminders as a bar graph visual
+- Visualization of reminder --> This feature gives the total completed, missed, and upcoming reminders as a bar graph visual.
 
 
 ## Documentation
@@ -53,15 +54,15 @@ https://docs.google.com/document/d/1-any88-IiThF0nnvF3d3HrZSnXFvwC-x9hFsUy3StkQ/
 
 ## Screenshots
 
-adding a new reminder
+Adding a new reminder
 
 ![first](https://user-images.githubusercontent.com/101000458/218464119-7e4784aa-636a-4a51-9d9b-24c98f597ec2.png)
 
-add date, time, and reason for the reminder
+Add date, time, and reason for the reminder
 
 ![second](https://user-images.githubusercontent.com/101000458/218464138-51c5e70b-befe-4c07-bb40-f1fa92d30cbd.png)
 
-getting the reminder
+Getting the reminder
 
 ![third](https://user-images.githubusercontent.com/101000458/218464164-48ebf89b-c7e4-4ebe-902b-1a0d55efa157.png)
 
