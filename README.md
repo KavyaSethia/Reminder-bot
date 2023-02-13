@@ -6,7 +6,6 @@ Fed up with too many assignments and deadlines to remember? This telegram bot is
 
 ## Aim–> We have created a Telegram Bot to remind user of their assignments by taking a prior record of the assignments. It gives the notification reminder at the exact time.
 
-
 ## Language 
 - Python
 
@@ -29,7 +28,6 @@ Fed up with too many assignments and deadlines to remember? This telegram bot is
 - Add the API in the code 
 - Run in on your local
 
-
 ## Technologies 
 - Firebase
 - Streamlit
@@ -44,13 +42,6 @@ Fed up with too many assignments and deadlines to remember? This telegram bot is
 - Mark reminder as complete --> This feature marks the completed reminder.
 - Reminder notification --> This feature is used to get a notification of the reminder at a specific time on the screen.
 - Visualization of reminder --> This feature gives the total completed, missed, and upcoming reminders as a bar graph visual.
-
-
-## Documentation
-
-
-[Documentation]
-https://docs.google.com/document/d/1-any88-IiThF0nnvF3d3HrZSnXFvwC-x9hFsUy3StkQ/edit?usp=drivesdk
 
 ## Screenshots
 
