@@ -51,8 +51,6 @@ https://docs.google.com/document/d/1-any88-IiThF0nnvF3d3HrZSnXFvwC-x9hFsUy3StkQ/
 ![third](https://user-images.githubusercontent.com/101000458/218453325-7ee7d1a2-126e-47fe-9b1e-68cf87ec8876.png)
 ![fourth](https://user-images.githubusercontent.com/101000458/218453335-588f7c12-5948-45a1-8818-78a53b2ed4f2.png)
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
 
 ## Future Scope
 
