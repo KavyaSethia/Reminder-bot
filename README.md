@@ -46,6 +46,10 @@ Fed up with too many assignments and deadlines to remember? This telegram bot is
 https://docs.google.com/document/d/1-any88-IiThF0nnvF3d3HrZSnXFvwC-x9hFsUy3StkQ/edit?usp=drivesdk
 
 ## Screenshots
+![first](https://user-images.githubusercontent.com/101000458/218453265-4217e4eb-8a4c-4eb9-9056-c6d016bc2ffb.png)
+![second](https://user-images.githubusercontent.com/101000458/218453295-29ab6c56-d264-4374-b228-ae01b8453847.png)
+![third](https://user-images.githubusercontent.com/101000458/218453325-7ee7d1a2-126e-47fe-9b1e-68cf87ec8876.png)
+![fourth](https://user-images.githubusercontent.com/101000458/218453335-588f7c12-5948-45a1-8818-78a53b2ed4f2.png)
 
 ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
