@@ -1,5 +1,7 @@
-# Aim: Assignment Submission Reminder Bot
+# Assignment Submission Reminder Bot
 Fed up with too many assignments and deadlines to remember? This telegram bot is for you! Add, update, or delete any assignment and it will give you a timely reminder before the deadline.
+
+##Aim: 
 
 ## Language 
 - Python
