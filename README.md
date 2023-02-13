@@ -4,7 +4,7 @@
 
 Fed up with too many assignments and deadlines to remember? This telegram bot is for you! Add, update, or delete any assignment, which will give you a timely reminder before the deadline.
 
-## Aim–> we have created a telegram bot to remind users of their assignments by taking a prior record of the assignments. It gives the notification reminder at the exact time.
+## Aim–> We have created a Telegram Bot to remind users of their assignments by taking a prior record of the assignments. It gives the notification reminder at the exact time.
 
 
 ## Language 
