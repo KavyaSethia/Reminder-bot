@@ -57,7 +57,7 @@ https://docs.google.com/document/d/1-any88-IiThF0nnvF3d3HrZSnXFvwC-x9hFsUy3StkQ/
 
 ## Future Scope
 
-we will include a voice command prompt so that our bot can reat/respond to voice messages/commaands
+we plan to include NLP(natural language processing) features to make the bot able to respond to various inputs of the users accordingly. This will ensure diverse and easy chatting options to the users and will expand the user base as different languages can be used to use our bot.
 
 
 
