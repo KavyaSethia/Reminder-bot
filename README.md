@@ -37,8 +37,8 @@ Fed up with too many assignments and deadlines to remember? This telegram bot is
 - Delete reminder --> This feature is use to delete the existing reminder.
 - Get all reminder --> This feature will give the list of all reminders till that date. 
 - Mark reminder as complete --> 
-- reminder notification --> This feature is use to give notification of the reminder at a specific time on the screen.
-- view summary of reminder-total completed, missed and upcoming
+- reminder notification --> This feature is use to get notification of the reminder at a specific time on the screen.
+- view summary of reminder --> This feature gives the total completed, missed and upcoming
 
 
 ## Documentation
