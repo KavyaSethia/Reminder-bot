@@ -29,6 +29,7 @@ Fed up with too many assignments and deadlines to remember? This telegram bot is
 ## Technologies 
 - Firebase
 - Streamlit
+- Pycharm
 
 ## Features
 
