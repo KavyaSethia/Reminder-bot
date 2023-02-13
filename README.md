@@ -1,6 +1,20 @@
 # Aim: Assignment Submission Reminder Bot
 Fed up with too many assignments and deadlines to remember? This telegram bot is for you! Add, update, or delete any assignment and it will give you a timely reminder before the deadline.
 
+## Libraries
+1.	telebot
+2.	from apscheduler.schedulers.blocking import BlockingScheduler
+3.	Re
+4.  datetime 
+5.  from bob_telegram_tools.bot import TelegramBot
+6.  matplotlib.pyplot
+7.  firebase_admin
+8.  asyncio
+9.  Flask,request
+10. firebase_admin import credentials,db,firestore
+
+## Language
+- Python
 
 ## Features
 
