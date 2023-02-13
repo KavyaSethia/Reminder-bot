@@ -57,7 +57,7 @@ https://docs.google.com/document/d/1-any88-IiThF0nnvF3d3HrZSnXFvwC-x9hFsUy3StkQ/
 
 ## Future Scope
 
-we plan to include NLP(natural language processing) features to make the bot able to respond to various inputs of the users accordingly. This will ensure diverse and easy chatting options to the users and will expand the user base as different languages can be used to use our bot.
+we plan to include NLP(natural language processing) features to make the bot able to respond to various inputs of the users accordingly. This will ensure diverse and easy chatting options to the users and will expand the user base as different languages can be used to use our bot. The bot is currently usable to telegram app. We plan to expand it's usability to wattsapp and other common social media sites according to grwoing user requirements.
 
 
 
@@ -65,4 +65,5 @@ we plan to include NLP(natural language processing) features to make the bot abl
 
 ## Feedback
 
-If you have any feedback, please reach out to us at
+This bot has various necessary features required. Please leave us a feedback. It will help us improve our project. we are open to all types of feedbacks
+Hope you liked it!!
