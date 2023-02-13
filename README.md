@@ -17,7 +17,11 @@ Fed up with too many assignments and deadlines to remember? This telegram bot is
 10. firebase_admin import credentials,db,firestore
 
 ## How to set up by user
--
+- Install pycharm
+- Take API token from telegram bot father 
+        -- link for guidance   
+- Add the API in the code 
+- Run in on your local
 
 
 ## Technologies 
