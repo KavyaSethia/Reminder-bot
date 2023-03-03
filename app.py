@@ -10,26 +10,25 @@ import asyncio
 from flask import Flask,request
 from firebase_admin import credentials,db,firestore
 cred = credentials.Certificate({
-  "type": "service_account",
-  "project_id": "pythonreminderbotcb",
-  "private_key_id": "aabe35c9c78ceddea40b268d4b11fb011abe4c5c",
-  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC0IPnjLwA0vJ6h\nKmJe6trBeO6YN1dHBjOaBZ293QuLCnHNoaa17aGNN22DeZjp9jwqqvyWgCkWR3hp\nznjM5rcYXXLOXkSmXdK00siEeYh+Dmh9X+V7+IJqWRJTJ8Wg89v1RgdKqOaGlPjt\ncp6pZzNne2p2OzUcPenS0JI9Vb9Tte157idoxpbtuT+bUuCp1KqMaKuSeZbQd4GA\n+lbh6SHWhxhakWcC3cT6ZnyMovG+fycXuqSZjl7Pe3xBokJRt9yiI/kgCteMfdJ4\n9k7E2jOot5tEvy5hnZW0yHl12bNsVqO2jjI1+RKqO+NjZzycoJrEY+LimEbkP5jF\ngdzBGNlnAgMBAAECggEAA8pJ18juZS2u3M9KgJrKfZWw140ajgkIXu5NUmhrTMKs\ngFotatiUNKd8625MlGe0/mTYqcYKl0hrtTY9/nnAUofs2YDMSv/gZiOlSnxQLe7Z\nrgGtj308KUa0hwFoPCnFcBTIJH8HUr+huUVXJ1NflobXR6OZS33WBLSUzyuVugop\nybaflYn+qmNpdxcoUKV8PbnXcITTwQXDV6NMxTzt+mU20M+m30tdGGwYSO5CjzOh\nIcYRiiG7impcf5AxBpCijq/YfrsKvSRfrL0dLrXc5Ojj0o1K3H/hfjSoIUwwy4/T\nUwwQCG8JEfOr6heuLFYygq5f6cQyqLaMWqcu3L7fAQKBgQD+HIWEy2yze6xSad8v\nwCy03HoSKTtxiayH/ocF6y/Xk10d/9kmj6ubBeMEWFsdxkbIko5keOI4yBEua8gN\n2SqTkJNsq0W/tW95kyriIfzI9BJ+2J4KUt0Lei0mTAyUgVULmpCj1YafoZWqmWQJ\nU8gaKyi+J/GtZlGHdkrjqqB45wKBgQC1d7GJhdpQiCChurYTVtm7isnPvLtnNQ+Y\nKKqPy+VuxgF4B3cmeFmiGuf0w928TrG3jazXkvotzGY8ZidSlw9lyIhYvaCexHiR\nf1wNzkvyc7XeVgRKJx554Ftm2Yti6KnOhqmhl2Jj/8lVPHFsFnfPtFsmMCQzOEab\nNDJsA2YLgQKBgQCwFkeXu/d5cIv7GA5m4n6YXefhSd09Ui/SlVgvi8g9VIrETRTH\nGevKowuraSbKvSkzuAsgKHxq6IivaFTa89ADLb5bIVxV+n5i+s5OoUqwXiGq8KSj\ndsRiPamnzi8xgWXTgqoUPdTqLWivLVga9onFSH8VNkzM4ghBHIHMveIxpQKBgCnj\nbz/nffWI9r9echkUuz3nU554WmoAfZEKEhUPY+6mFkC2uHJQ5Z/dxh1h+RU2tR9B\nvNwmOUnJHPBkRD90T0GXgKG7ZBBCGfK8C2vEaxOUUi74fBUB4q8PcwnSvbIfMtNR\nkmaSo0uiB799LFFe/lkbsM6n3jNUkjfRXLJCNpQBAoGBAJS5K3pmxJRV1bTyS3Fw\n0Hxf+DNmC44FH37KanWkGBUDSp2t/LNhB7FcMX4CZDTz8LEpfS1Xnc6BmypTOqRF\nSDpP1XzzUQ9ldKL37ez1WHIbb3JCmTmRSNv/kk1IXUda2BWOzuGzQ9sfzm76cGyv\nhxt3woSb679I8X7U+oMLA4lL\n-----END PRIVATE KEY-----\n",
-  "client_email": "firebase-adminsdk-5d124@pythonreminderbotcb.iam.gserviceaccount.com",
-  "client_id": "115542717789986041662",
-  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-  "token_uri": "https://oauth2.googleapis.com/token",
-  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-5d124%40pythonreminderbotcb.iam.gserviceaccount.com"
+  "type": TYPE,
+  "project_id": PROJECTID,
+  "private_key_id": PRIVATEKEYID,
+  "private_key": PRIVATEKEY,
+  "client_email": CLIENTEMAIL,
+  "client_id": CLIENTID,
+  "auth_uri": AUTHURI,
+  "token_uri": TOKENURI,
+  "auth_provider_x509_cert_url": AUTHPROVIDERX509CERTURL ,
+  "client_x509_cert_url": CLIENTX509CERTURL
 })
-
 default_app = firebase_admin.initialize_app(cred, {
-	'databaseURL': "https://pythonreminderbotcb-default-rtdb.asia-southeast1.firebasedatabase.app"
+	'databaseURL': DATABASEURL
 	})
 firestore_client = firebase_admin.firestore.client()
 ref_for_user_table = firebase_admin.db.reference("/user")
 ref_for_reminder_table = firebase_admin.db.reference("/reminder")
 
-API_TOKEN = "5553951620:AAEcqn7mrd2OGmrT6HZNbdrr5Y0wR1RYD1I"
+API_TOKEN = API
 categories = {"Meeting": 1, "Task": 2, "Other": 3}
 categoryId = 0
 date = ''
@@ -443,7 +442,7 @@ def View_Reminders(message):
         msg = bot.reply_to(message,reminder_info)
 @bot.message_handler(commands=['Mark_Reminders_Complete'])
 def Mark_Reminders_Complete(message):
-    global key_dict,reminder_info_including_key
+    global key_dict
     reminder_info_including_key = ref_for_reminder_individual.get()
     key_dict ={}
     Index_no =0
@@ -463,11 +462,7 @@ def Mark_Reminders_Complete(message):
 def Delete_reminder_database(message):
     index_no = message.text.replace('/', '')
     key = key_dict[int(index_no)]
-    enddateinstr=reminder_info_including_key[key][end_date]
-    timeinstr =reminder_info_including_key[key][time]
-    date[0:4] + "-" + date[5:7] + "-" + date[8:10] + " " + time[0:2] + ":" + time[3:] + ":00"
-    if(datetime(int(enddateinstr[0:4]),int(enddateinstr[5:7]),int(enddateinstr[8:10]),int(timeinstr[0:2]),int(timeinstr[3:]),59)>datetime.now()):
-        Delete_apscheduler('/'+index_no)
+    print(key)
     ref_for_reminder_individual.child(key).set({})
 
 def Complete_reminder_database(message):
