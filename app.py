@@ -9,15 +9,26 @@ import firebase_admin
 import asyncio
 from flask import Flask,request
 from firebase_admin import credentials,db,firestore
-cred = firebase_admin.credentials.Certificate("C:/Windows/System32/pythonreminderbotcb-firebase-adminsdk-5d124-aabe35c9c7.json")
+cred = credentials.Certificate({
+  "type": TYPE,
+  "project_id": PROJECTID,
+  "private_key_id": PRIVATEKEYID,
+  "private_key": PRIVATEKEY,
+  "client_email": CLIENTEMAIL,
+  "client_id": CLIENTID,
+  "auth_uri": AUTHURI,
+  "token_uri": TOKENURI,
+  "auth_provider_x509_cert_url": AUTHPROVIDERX509CERTURL ,
+  "client_x509_cert_url": CLIENTX509CERTURL
+})
 default_app = firebase_admin.initialize_app(cred, {
-	'databaseURL': "https://pythonreminderbotcb-default-rtdb.asia-southeast1.firebasedatabase.app"
+	'databaseURL': DATABASEURL
 	})
 firestore_client = firebase_admin.firestore.client()
 ref_for_user_table = firebase_admin.db.reference("/user")
 ref_for_reminder_table = firebase_admin.db.reference("/reminder")
 
-API_TOKEN = ""
+API_TOKEN = API
 categories = {"Meeting": 1, "Task": 2, "Other": 3}
 categoryId = 0
 date = ''
