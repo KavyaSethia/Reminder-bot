@@ -1,3 +1,4 @@
+import os
 import telebot
 from apscheduler.schedulers.blocking import BlockingScheduler
 from telebot import types
@@ -10,25 +11,26 @@ import asyncio
 from flask import Flask,request
 from firebase_admin import credentials,db,firestore
 cred = credentials.Certificate({
-  "type": TYPE,
-  "project_id": PROJECTID,
-  "private_key_id": PRIVATEKEYID,
-  "private_key": PRIVATEKEY,
-  "client_email": CLIENTEMAIL,
-  "client_id": CLIENTID,
-  "auth_uri": AUTHURI,
-  "token_uri": TOKENURI,
-  "auth_provider_x509_cert_url": AUTHPROVIDERX509CERTURL ,
-  "client_x509_cert_url": CLIENTX509CERTURL
+  "type": os.environ.get(TYPE),
+  "project_id": os.environ.get(PROJECTID),
+  "private_key_id": os.environ.get(PRIVATEKEYID),
+  "private_key": os.environ.get(PRIVATEKEY),
+  "client_email": os.environ.get(CLIENTEMAIL),
+  "client_id": os.environ.get( CLIENTID),
+  "auth_uri": os.environ.get(AUTHURI),
+  "token_uri": os.environ.get(TOKENURI),
+  "auth_provider_x509_cert_url": os.environ.get(AUTHPROVIDERX509CERTURL),
+  "client_x509_cert_url": os.environ.get(CLIENTX509CERTURL)
 })
+
 default_app = firebase_admin.initialize_app(cred, {
-	'databaseURL': DATABASEURL
+	'databaseURL': os.environ.get(DATABASEURL) 
 	})
 firestore_client = firebase_admin.firestore.client()
 ref_for_user_table = firebase_admin.db.reference("/user")
 ref_for_reminder_table = firebase_admin.db.reference("/reminder")
 
-API_TOKEN = API
+API_TOKEN = os.environ.get(API) 
 categories = {"Meeting": 1, "Task": 2, "Other": 3}
 categoryId = 0
 date = ''
